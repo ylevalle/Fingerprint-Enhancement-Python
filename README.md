@@ -6,7 +6,7 @@ Using oriented gabor filters to enhance fingerprint images based on https://gith
 
 The fingerprint image to enhance must be in the images directory, the default name is 1.jpg. The enhanced image will be located on the directory enhanced and the default name is enhanced.jpg
 
-This version doesn' work on Python 3 yet
+This version doesn't work on Python 3 yet
 
 # Requirements:
 
