@@ -1,3 +1,4 @@
+#! ./env/bin/python
 import os
 from os.path import abspath, dirname, join, exists
 

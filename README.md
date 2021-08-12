@@ -8,10 +8,18 @@ this version is written in python3
 
 The images of the fingerprint for the enhancement must be in the "images" directory, the program will enhance all the images in that directory and they will be located in the "enhanced" directory with the same names and the suffix "_enhanced"
 
-## Example:
-Command:
+## Installation of requirements
+
+Execute installation.sh
+```bash
+./installation.sh
 ```
-python main_enhancement.py
+
+## Example:
+
+execute execution.sh:
+```bash
+./execution.sh
 ```
 Output:
 ```
