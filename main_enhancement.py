@@ -36,6 +36,7 @@ def main():
         enhanced_img_name = img_name.split('.')
         enhanced_img_name = enhanced_img_name[0] + SUFFIX + enhanced_img_name[-1]
         if exists(join(ENHANCED_PATH, enhanced_img_name)):
+            print(f'{img_name} is already processed: ({i+1}/{len(image_names)})')
             continue  # if an image exists its enhanced, nothing is done
         images_processed = True
         print(f'Processing {img_name}: ({i+1}/{len(image_names)})')

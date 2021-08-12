@@ -1,3 +1,6 @@
 #enviroment
 env
 __pycache__
+# images
+images/*
+enhanced/*
