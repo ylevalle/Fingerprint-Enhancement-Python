@@ -68,3 +68,6 @@ pip install -r requirements.txt
 ```
 # Colaborators
 * **Willy Samuel Paz Colque**
+# Donations
+If you want to help me be a better developer and continue collaborating in these projects, you can invite me a caffe, I would appreciate it. [Donate](https://paypal.me/WillyPaz95?country.x=UY&locale.x=es_XC)
+
