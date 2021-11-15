@@ -8,6 +8,9 @@ this version is written in python3
 
 The images of the fingerprint for the enhancement must be in the "images" directory, the program will enhance all the images in that directory and they will be located in the "enhanced" directory with the same names and the suffix "_enhanced"
 
+# Requirements
+* [Python v3.9](https://www.python.org/downloads/release/python-398/)
+
 ## Installation of requirements
 
 Execute installation.sh
@@ -15,11 +18,12 @@ Execute installation.sh
 ./installation.sh
 ```
 
-## Example:
-
-execute execution.sh:
+## Usage:
+### Terminal
+1. Copy your photos in png or jpg format to the images folder.
+2. execute `execution` file:
 ```bash
-./execution.sh
+./execution
 ```
 Output:
 ```
@@ -36,20 +40,27 @@ enhanced
 
 0 directories, 1 file
 ```
+### GUI
+1. Execute `finger-print-enhancer-gui` file:
+```bash
+./finger-print-enhancer-gui
+```
+or 
+**Double click on this file**. Example:
+![img1](.github/img1.png)
+this window will appear
+![img2](.github/img2.png)
+
 
 
 # Requirements:
+
+install [python](https://www.python.org/)
+
 ```r
-cycler==0.10.0
-kiwisolver==1.3.1
-matplotlib==3.4.2
-numpy==1.21.1
+numpy==1.21.2
 opencv-python==4.5.3.56
-Pillow==8.3.1
-pyparsing==2.4.7
-python-dateutil==2.8.2
 scipy==1.7.1
-six==1.16.0
 ```
 Install it:
 ```sh
