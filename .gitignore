@@ -1,0 +1,11 @@
+test.py
+#enviroment
+env
+__pycache__
+# images
+images/*
+enhanced/*
+# building
+guifinger.spec
+build
+dist

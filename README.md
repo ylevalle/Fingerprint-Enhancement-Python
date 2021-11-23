@@ -1,17 +1,73 @@
 # Fingerprint-Enhancement-Python
 
-Using oriented gabor filters to enhance fingerprint images based on https://github.com/Utkarsh-Deshmukh/Fingerprint-Enhancement-Python
+Using oriented gabor filters to enhance fingerprint images based on https://github.com/ylevalle/Fingerprint-Enhancement-Python
+
+this version is written in python3
 
 # Usage: python main_enhancement.py
 
-The fingerprint image to enhance must be in the images directory, the default name is 1.jpg. The enhanced image will be located on the directory enhanced and the default name is enhanced.jpg
+The images of the fingerprint for the enhancement must be in the "images" directory, the program will enhance all the images in that directory and they will be located in the "enhanced" directory with the same names and the suffix "_enhanced"
 
-This version doesn't work on Python 3 yet
+# Requirements
+* [Python v3.9](https://www.python.org/downloads/release/python-398/)
+
+## Installation of requirements
+
+Execute installation.sh
+```bash
+./installation.sh
+```
+
+## Usage:
+### Terminal
+1. Copy your photos in png or jpg format to the images folder.
+2. execute `execution` file:
+```bash
+./execution
+```
+Output:
+```
+Found 1 images in "images" folder
+Processing images ...
+Processing 1.jpg: (1/1)
+	All enhanced images saved in the "enhanced" folder.
+done.
+```
+Results:
+```
+enhanced
+└── 1_enhanced.jpg
+
+0 directories, 1 file
+```
+### GUI
+1. Execute `finger-print-enhancer-gui` file:
+```bash
+./finger-print-enhancer-gui
+```
+or 
+**Double click on this file**. Example:
+![img1](.github/img1.png)
+this window will appear
+![img2](.github/img2.png)
+
+
 
 # Requirements:
 
-numpy
-cv2
-scipy
-matplotlib
-imageio
+install [python](https://www.python.org/)
+
+```r
+numpy==1.21.2
+opencv-python==4.5.3.56
+scipy==1.7.1
+```
+Install it:
+```sh
+pip install -r requirements.txt
+```
+# Colaborators
+* **Willy Samuel Paz Colque**
+# Donations
+If you want to help me be a better developer and continue collaborating in these projects, you can invite me a caffe, I would appreciate it. [Donate](https://paypal.me/WillyPaz95?country.x=UY&locale.x=es_XC)
+
